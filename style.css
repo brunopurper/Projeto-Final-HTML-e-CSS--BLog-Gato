@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #202024;
+    --text-sm: 0.875rem;
+}
+
+html {
+    font: 400 1rem/160% "Mulish", sans serif;
+}
+
+h1, h2, h3 {
+font-family: 'Mulish';
+font-size: 1.5rem;
+line-height: 160%;
+color: var(--color-primary);
+}
+
+h3 {
+    font-size: 1.125rem;
+}
